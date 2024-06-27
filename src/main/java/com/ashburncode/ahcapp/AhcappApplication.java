@@ -64,9 +64,9 @@ public class AhcappApplication {
     // SslContext sslContext = null;
     DefaultAsyncHttpClientConfig.Builder clientBuilder = Dsl.config()
         // .setEnabledProtocols(protocolList)
-        .setEnabledProtocols(protocolArray3)
+        // .setEnabledProtocols(protocolArray3)
         // .setEnabledProtocols(cipherSuiteArray)
-        .setEnabledCipherSuites(cipherSuiteArray1)
+        // .setEnabledCipherSuites(cipherSuiteArray1)
         // .setSslContext(sslContext)
         // .setSslEngineFactory
         .setConnectTimeout(500);
